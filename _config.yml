@@ -1,2 +1,2 @@
 exclude:
-  - "bower_components"
+  - "bower_components/owl.carousel/docs_src/"
