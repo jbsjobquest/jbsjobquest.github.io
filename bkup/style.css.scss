@@ -1,0 +1,93 @@
+/*
+************ 
+*/
+@import "./bootstrap";
+
+body{
+  background-color: #ddd;
+}
+
+@mixin coverImage($coverImage){
+   background: url($coverImage) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-fluid{
+  padding-left : 0;
+  padding-right: 0;
+  background-color : #fefefe;
+  color: #efefef;
+}
+
+.full-screen{
+  width: 100vw;
+  height:100vh;
+  max-width : 100%; // To avoid horizontal scroll because of vw;
+  @include coverImage('http://lorempixel.com/800/1080');
+  overflow: hidden;
+}
+
+
+
+
+.fixedBg{
+
+  width: 100vw;
+  max-width: 100%;
+  height: 600px;
+  
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-attachment : fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+
+
+h1{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 48px;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+}
+
+.bg1{
+    background-image: url('http://lorempixel.com/1000/600');
+   
+
+
+
+
+
+}
+
+.bg2{
+
+  background-image: url('http://lorempixel.com/1100/600');
+ 
+}
+
+.bg3{
+
+   background-image: url('http://lorempixel.com/600/600');
+
+
+  
+
+}
+
+footer{
+  background-color: #333;
+  height: 600px;
+}
+
+
