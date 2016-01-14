@@ -6447,14 +6447,15 @@ body {
   height: 600px; }
 
 .bg1 {
-  background-image: url("/assets/images/background2.png");
+  background-image: url("/assets/images/background.jpg");
   position: relative;
   height: 100vh; }
   .bg1 .overlay {
     height: 100vh; }
 
 .bg2 {
-  background-image: url("/assets/images/07.jpg"); }
+  background-image: url("/assets/images/07.jpg");
+  background-color: #584849; }
 
 .bg3 {
   background-image: url("/assets/images/04.jpg"); }
@@ -6469,6 +6470,10 @@ body {
     height: 1300px; }
   .bg5 .contentPiece {
     padding-bottom: 30px; }
+  .bg5 row {
+    margin-bottom: 18px; }
+  .bg5 [class*="col-"] {
+    margin-bottom: 18px; }
 
 .noBG hgroup > h2 > strong {
   color: #5A5A5A; }
@@ -6639,3 +6644,20 @@ footer {
     display: inline; }
   .dev-signature .deviceMode {
     font-style: bold; }
+
+.zocial-icons-row {
+  margin: 18px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px; }
+
+.zocial-icons {
+  margin-top: 24px; }
+
+.zocial-icons > a,
+.zocial-icons > a:hover,
+.zocial-icons > a:focus,
+.zocial-icons > a:active {
+  color: white;
+  font-size: 3em;
+  text-decoration: none;
+  margin: 2em 1em; }
